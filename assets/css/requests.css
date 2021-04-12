@@ -1,0 +1,59 @@
+body{
+    overflow: hidden;
+}
+.friend_requests{
+    width: 75%;
+    margin: 57px auto 0 auto;
+    background-color: #18191A;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+#friend_requests_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    color: black;
+    border-radius: 20px;
+    
+}
+#accept_request{
+    background-color: #4294FF;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    width: 100px;
+    margin: 10px 30px 10px 30px;
+}
+#remove_request{
+    background-color: #ff0000;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    width: 100px;
+}
+#friend_requests_form img{
+    border-radius: 50%;
+    margin-right: 20px;
+    height: 70px;
+}
+#friend_requests_form{
+    font-size: 24px;
+}
+#friend_requests_form a{
+    margin-right: 10px;
+}
+
+#friend_requests_form p{
+    margin: 0;
+    font-size: 18px;
+}

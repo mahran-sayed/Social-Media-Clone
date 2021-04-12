@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
+}
+
+#main_search {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: lightgray;
+}
+
+.bg-search {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: lightgray;
+}
+
+.circle-shape {
+    background-color: #4E4E4F;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.circle-shape i {
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.6s;
+}
+
+.circle-shape:hover {
+    background-color: #242526;
+
+}
+
+.circle-shape:hover>i {
+    transform: scale(1.2);
+}
+
+.user-details {
+    position: fixed;
+    width: 280px;
+    height: 100vh;
+    background-color: lightgray;
+    float: left;
+}
+
+.user-details img {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    left: 50%;
+    margin: 20px 0;
+    transform: translateX(-50%);
+    border: 5px solid #18191A;
+    border-radius: 50%;
+}
+.user-details h1{
+    background-color: #18191A;
+    margin: 0 auto;
+    padding: 10px;
+    color: #fff;
+}
+.user-details h6{
+    background-color: #343a40;
+    margin: 0 auto;
+    color: #fff;
+    padding:10px ;
+}
+.user-details h5{
+    padding: 10px;
+    background-color: #18191A;
+    margin: 0 auto;
+    color: #fff;
+
+}
+#none_personal_page input{
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    border-radius: 25%;
+    color: #fff;
+    font-size: 15px;
+    outline: none;
+}
+
+.remove_friend{
+    background-color: #ff0000;
+}
+.respond_request{
+    background-color: #e9c46a;
+}
+.request_sent{
+    background-color: #bdc3c7;
+}
+.add_friend{
+    background-color: #4294FF;
+}
+
+
+.content {
+    /* margin-left: 290px;
+    margin-top: 20px; */
+    margin: 57px 280px 0 280px;
+    background-color: #18191A;
+    padding: 20px;
+    height: 100%;
+}
+
+.post-form textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.messenger {
+    position: fixed;
+    right: 0;
+    width: 280px;
+    top: 57px;
+    background-color: lightgray;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.post-buttons {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 0 10px;
+}
+
+.post-buttons button,
+.post-buttons input[type="submit"] {
+    border: none;
+    width: 20%;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.status_post {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.status_post img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.main-info {
+    display: flex;
+    align-items: center;
+}
+
+#comment-iframe {
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+    background-color: #343A40;
+}
+
+#comment-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#comment-form #post_body {
+    width: 90%;
+}
+
+#comment-form button {
+    border: none;
+    outline: none;
+    background-color: #4E4E4F;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#comment-form button span {
+    color: #fff;
+    font-size: 24px;
+    transition: all 0.6s;
+}
+#comment-form button:hover {
+    background-color: #242526;
+
+}
+
+#comment-form>button:hover>span {
+    transform: scale(1.2);
+}
+.comment_section a img{
+    border-radius: 50%;
+}
+
+.postOptions{
+    color:blue;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#like_btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+.redHeart{
+    color:red;
+}
+#likes-iframe{
+    height: 27px;
+    width: 120px;
+    padding: 0;
+}
+.like_value{
+    font-size: 16px;
+    display: inline;
+    color: red;
+    margin-left: 12px;;
+}
+#likes-form{
+    padding: 0;
+    margin: 0;
+}
+#post-modal{
+    z-index: 9999;
+}
